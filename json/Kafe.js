@@ -206,7 +206,7 @@ var kafeJSON = {
       properties: {
         FID: 9,
         OBJECTID: 0,
-        Name: "1 st Gallery kitchen",
+        Name: "1-st Gallery kitchen",
         Desc: "Gallery kitchen — абсолютно уникальное заведение. Настоящая реализация лаундж-формата с уникальной концепцией, ведь мы находимся внутри картинн",
         Tel: "+79600488288",
         y: " ",
@@ -214,7 +214,7 @@ var kafeJSON = {
         Y_1: 0,
         Type: "Лаундж бар",
         Desc_: "https://1stgallery.ru/",
-        Rat: 4.8
+        Rat: 4.8,
       },
     },
     {
@@ -234,7 +234,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Ресторан",
-        Desc_: "https://yandex.ru/maps/org/5_green_bottles/163532748509/?ll=49.134728%2C55.813006&z=16.13",
+        Desc_:
+          "https://yandex.ru/maps/org/5_green_bottles/163532748509/?ll=49.134728%2C55.813006&z=16.13",
         Rat: 4.9,
       },
     },
@@ -318,7 +319,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Ресторан",
-        Desc_: "https://yandex.ru/maps/org/artkafe/55484724915/?indoorLevel=1&ll=49.121605%2C55.787609&z=16.63",
+        Desc_:
+          "https://yandex.ru/maps/org/artkafe/55484724915/?indoorLevel=1&ll=49.121605%2C55.787609&z=16.63",
         Rat: 5,
       },
     },
@@ -381,7 +383,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Лаундж бар",
-        Desc_: "https://yandex.ru/maps/org/baratynskiy/175858819680/?ll=49.115283%2C55.786166&z=15.91",
+        Desc_:
+          "https://yandex.ru/maps/org/baratynskiy/175858819680/?ll=49.115283%2C55.786166&z=15.91",
         Rat: 4.9,
       },
     },
@@ -402,7 +405,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Кафе",
-        Desc_: "https://yandex.ru/maps/org/gelateria/206449191135/?indoorLevel=1&ll=49.122352%2C55.787678&z=16.63",
+        Desc_:
+          "https://yandex.ru/maps/org/gelateria/206449191135/?indoorLevel=1&ll=49.122352%2C55.787678&z=16.63",
         Rat: 4.9,
       },
     },
@@ -465,7 +469,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Лаундж бар",
-        Desc_: "https://yandex.ru/maps/org/chalbar/105717689868/?ll=49.103955%2C55.785385&z=16.63",
+        Desc_:
+          "https://yandex.ru/maps/org/chalbar/105717689868/?ll=49.103955%2C55.785385&z=16.63",
         Rat: 4.9,
       },
     },
@@ -507,7 +512,8 @@ var kafeJSON = {
         X_1: 0,
         Y_1: 0,
         Type: "Лаундж бар",
-        Desc_: "https://yandex.ru/maps/org/pappin_pub/1463842550/?ll=49.122982%2C55.798859&z=14.91",
+        Desc_:
+          "https://yandex.ru/maps/org/pappin_pub/1463842550/?ll=49.122982%2C55.798859&z=14.91",
         Rat: 4.9,
       },
     },
