@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+}
+.container {
+  display: flex;
+  max-width: 2000px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+#map {
+  height: 100vh;
+  width: 83vw;
+}
+.place-list {
+  flex:auto;
+  width: 17%;
+  height: 100vh;
+  overflow: auto;
+  background: whitesmoke;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background: #466799;
+  border-radius: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+.leaflet-popup-content img {
+  width: 380px;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  margin: 0;
+  width: 400;
+  padding: 16px;
+  border-radius: 10%;
+}
+
+.leaflet-popup-content {
+  border-radius: 10px;
+}
+.fullscreen:-webkit-full-screen {
+  width: 600 !important;
+  height: 600 !important;
+  margin: auto !important;
+}
+.fullscreen:-moz-full-screen {
+  width: auto !important;
+  height: auto !important;
+  margin: auto !important;
+}
+.fullscreen:-ms-fullscreen {
+  width: auto !important;
+  height: auto !important;
+  margin: auto !important;
+}
+.leaflet-popup-content-wrapper h4 {
+  padding: 16px;
+  background: #466799;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.leaflet-control-layers-list {
+  background-color: rgb(249, 249, 249);
+  width: 120px;
+  padding: 5px 5px 5px 5px;
+}
+
+.point-item {
+  width: 250px;
+}
+
+.place-list .heading {
+  background: #466799;
+  color: #fff;
+}
+
+.place-list .heading h4 {
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.place-list ul.list .point-item img {
+  width: 250px;
+}
+
+.place-list ul.list {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.place-list .point-item {
+  margin: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+
+.place-list li:last-child .point-item {
+  border: none;
+}
+
+.place-list .point-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #466799;
+  font-weight: 700;
+}
