@@ -206,7 +206,7 @@ var kafeJSON = {
       properties: {
         FID: 9,
         OBJECTID: 0,
-        Name: "1 st Gallery kitchen",
+        Name: "1-st Gallery kitchen",
         Desc: "Gallery kitchen — абсолютно уникальное заведение. Настоящая реализация лаундж-формата с уникальной концепцией, ведь мы находимся внутри картинн",
         Tel: "+79600488288",
         y: " ",
